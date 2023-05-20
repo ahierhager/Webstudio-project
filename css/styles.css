@@ -768,7 +768,7 @@ footer .footer-logo {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-white);
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 .input-subscribe {
   background-color: transparent;
@@ -809,8 +809,10 @@ footer .footer-logo {
 .btn-subscribe:focus {
   background-color: var(--color-ocean);
 }
-
-.form-btn-ttl {
+.form-div {
+  display: inline-block;
+  align-items: center;
+  margin-left: 80px;
 }
 .subscribe-form-wrapper {
   box-sizing: border-box;
@@ -821,7 +823,7 @@ footer .footer-logo {
   border: none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  padding-left: 80px;
+  /* padding-left: 80px; */
 }
 .modal-title {
   display: block;
@@ -832,6 +834,9 @@ footer .footer-logo {
   letter-spacing: 0.02em;
   color: var(--color-navy-blue);
   margin-bottom: 16px;
+}
+.icon-form-btn {
+  fill: var(--color-white);
 }
 .modal-form {
 }
@@ -865,6 +870,7 @@ footer .footer-logo {
   height: 120px;
   border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
+  outline: none;
   padding: 0;
   padding-top: 8px;
   padding-left: 16px;
@@ -876,11 +882,12 @@ footer .footer-logo {
   transition: outline-color var(--anim-fast);
 }
 .text-area:focus {
-  outline-color: var(--color-iris);
+  border-color: var(--color-iris);
 }
 .modal-textfield {
   width: 100%;
   height: 40px;
+  outline: none;
   border: 1px solid var(--color-navy-blue-modal);
   border-radius: 4px;
   padding: 0;
@@ -889,7 +896,7 @@ footer .footer-logo {
 }
 
 .modal-textfield:focus {
-  outline-color: var(--color-iris);
+  border-color: var(--color-iris);
 }
 .icons-modal-form {
   position: absolute;
@@ -932,7 +939,6 @@ footer .footer-logo {
 .checkbox-label {
   display: flex;
   gap: 8px;
-  justify-content: center;
   align-items: center;
 
   margin-bottom: 24px;
