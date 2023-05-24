@@ -23,9 +23,7 @@
   --anim-fast: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
   --modal-idx: 100;
-  
 }
-
 
 /*OTHER*/
 body {
@@ -131,7 +129,6 @@ img {
   color: var(--color-navy-blue);
 }
 
-
 .mobile-menu {
   display: flex;
   flex-direction: column;
@@ -169,7 +166,7 @@ img {
   border: none;
 }
 
-.mobile-burger-menu-icon{
+.mobile-burger-menu-icon {
   background: none;
   border: none;
   color: var(--color-navy-blue);
@@ -229,7 +226,8 @@ img {
   transition: color 250ms var(--animation-timing-function);
 }
 
-.mobile-menu-link:focus, .mobile-menu-link:hover {
+.mobile-menu-link:focus,
+.mobile-menu-link:hover {
   color: var(--color-ocean);
 }
 
@@ -252,7 +250,7 @@ img {
   margin-bottom: 40px;
 
   /* Header 2 */
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -265,8 +263,8 @@ img {
 
 .mobile-contacts-mail {
   margin-bottom: 48px;
-  
-  font-family: 'Roboto';
+
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -313,9 +311,8 @@ img {
 
 .mobile-menu-social-networks-link:focus {
   background-color: var(--color-ocean);
-}s
-
-.header-nav-list {
+}
+s .header-nav-list {
   display: none;
 }
 .list {
@@ -426,11 +423,10 @@ img {
 @media only screen and (min-width: 1158px) {
   .header-contact {
     flex-direction: row;
+    font-size: 16px;
+    gap: 40px;
   }
 }
-
-
-
 
 /**
   |============================
@@ -550,8 +546,6 @@ img {
   }
 }
 
-
-
 /**
   |============================
   | About styles
@@ -593,7 +587,7 @@ img {
 .about-item-txt {
   /* Body Medium */
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -671,7 +665,6 @@ img {
   }
 }
 
-
 /**
   |============================
   | Portfolio
@@ -712,7 +705,6 @@ img {
     width: calc((100% - 48px) / 3);
   }
 }
-
 
 /**
   |============================
@@ -810,7 +802,6 @@ img {
 @media only screen and (min-width: 1158px) {
 }
 
-
 /**
   |============================
   | Customers Section
@@ -881,9 +872,8 @@ img {
   }
 }
 /********** Desktop screen >= 1158 **********/
-@media only screen and (min-width: 1158px) { 
+@media only screen and (min-width: 1158px) {
 }
-
 
 /**
   |============================
@@ -1088,7 +1078,6 @@ img {
   transition: fill var(--anim-fast);
 }
 
-
 .modal-title {
   display: block;
   font-weight: 500;
@@ -1208,9 +1197,6 @@ img {
   margin-bottom: 24px;
 }
 
-
-
-
 /**
   |============================
   | Footer styles
@@ -1235,7 +1221,7 @@ footer .footer-logo {
   color: var(--color-cloud);
 }
 .footer-copyright {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1266,7 +1252,7 @@ footer .footer-logo {
 }
 
 .social-media-txt {
-  color: var(--color-white);  
+  color: var(--color-white);
   text-align: center;
 }
 .footer-div {
@@ -1369,10 +1355,9 @@ footer .footer-logo {
 }
 
 /********** Tablet screen >= 768 **********/
-@media only screen and (min-width: 768px) { 
-  
+@media only screen and (min-width: 768px) {
   .social-media-txt {
-    color: var(--color-white);  
+    color: var(--color-white);
     text-align: left;
   }
   .footer-div {
