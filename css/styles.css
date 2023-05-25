@@ -882,6 +882,9 @@ s .header-nav-list {
 
 /********** Mobile screen <= 319 **********/
 @media only screen and (max-width: 319px) {
+  .customers-list{
+    justify-content: center;
+  }
 }
 /********** Tablet screen >= 768 **********/
 @media only screen and (min-width: 768px) {
@@ -890,7 +893,9 @@ s .header-nav-list {
   }
   .customers-list {
     display: flex;
-margin-left: 96px;
+margin-left: 76px;
+
+
     /* justify-content: center; */
     /* align-items: center; */
     row-gap: 64px;
@@ -1292,7 +1297,7 @@ text-align: left;
 .footer-div {
   max-width: 264px;
   text-align: center;
-  margin: 0 auto 72px auto;
+  margin: 0 0 72px 0;
 }
 .footer-container {
   display: flex;
@@ -1387,6 +1392,7 @@ text-align: left;
 
 /********** Mobile screen <= 319 **********/
 @media only screen and (max-width: 319px) {
+  
 }
 
 /********** Tablet screen >= 768 **********/
