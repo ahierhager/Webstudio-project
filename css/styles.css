@@ -153,14 +153,18 @@ img {
 .mobile-menu {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
   position: fixed;
   top: 0;
   width: 100%;
   height: 100%;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1) linear;
   background-color: #fff;
-  padding: 40px 24px 40px 24px;
+  /* padding: 80px 24px 40px 24px; */
+  padding-top: 80px;
+  padding-left: 40px;
+  padding-right: 24px;
+  padding-bottom: 40px;
 
   /* display: flex;
   flex-direction: column;
@@ -177,7 +181,7 @@ img {
 .burger-social-icons {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  /* justify-content: left; */
   align-items: center;
   gap: 56px;
   fill: currentColor;
@@ -246,7 +250,7 @@ img {
   flex-direction: column;
   font-size: 36px;
   gap: 40px;
-  margin-bottom: 284px;
+  margin-bottom: auto;
 }
 
 .mobile-menu-contacts-list {
@@ -1412,6 +1416,10 @@ footer .footer-logo {
     color: var(--color-white);
     text-align: left;
   }
+  .social-icons-div {
+    margin: 0;
+  }
+
   .footer-div {
     max-width: 264px;
     text-align: left;
@@ -1451,8 +1459,10 @@ footer .footer-logo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: baseline;
   }
   .footer-div {
+    margin-right: 24px;
     margin-bottom: 72px;
   }
   .subscribe-form-wrapper {
@@ -1462,16 +1472,27 @@ footer .footer-logo {
 /********** Desktop screen >= 1158 **********/
 @media only screen and (min-width: 1158px) {
   .form-div {
-    margin: 0 0 auto auto;
+    margin: 0;
     flex-wrap: nowrap;
     width: auto;
   }
   .footer-div {
     max-width: 264px;
-    margin: 0 auto auto 0;
+    margin: 0;
+    margin-right: 120px;
+    /* margin: 0 auto auto 0; */
   }
+  .social-icons-div {
+    margin: 0;
+    margin-right: 80px;
+  }
+
+  .footer-container {
+    align-items: baseline;
+  }
+
   .footer {
-    padding-top: 137px;
-    padding-bottom: 63px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 }
