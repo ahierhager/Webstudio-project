@@ -916,6 +916,7 @@ s .header-nav-list {
   }
   .customers-list {
     display: flex;
+    justify-content: start;
     row-gap: 72px;
     column-gap: 24px;
   }
