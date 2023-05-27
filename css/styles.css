@@ -272,6 +272,10 @@ img {
   transition: color 250ms var(--animation-timing-function);
 }
 
+.mobile-menu-link.active {
+  color: var(--color-ocean);
+}
+
 .mobile-menu-link:focus,
 .mobile-menu-link:hover {
   color: var(--color-ocean);
