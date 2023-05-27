@@ -1087,6 +1087,12 @@ s .header-nav-list {
   visibility: hidden;
   pointer-events: none;
 }
+
+/* @media only screen and (min-width: 428px) {
+  .modal {
+    width: 392px;
+  }
+} */
 .modal {
   position: absolute;
   transform: translate(-50%, -50%);
@@ -1096,7 +1102,8 @@ s .header-nav-list {
 
   top: calc(50%);
   left: calc(50%);
-  width: 408px;
+  width: 100%;
+  max-width: 392px;
 
   min-height: 576px;
 
